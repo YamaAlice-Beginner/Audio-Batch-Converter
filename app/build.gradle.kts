@@ -21,9 +21,9 @@ android {
 
     buildTypes {
         release {
+            // 关闭 R8 压缩/优化，避免混淆导致发布包启动异常。
             optimization {
-                enable = true
-                packageScope = setOf("androidx.**", "kotlin.**", "kotlinx.**")
+                enable = false
             }
         }
     }
