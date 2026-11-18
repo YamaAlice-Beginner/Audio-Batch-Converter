@@ -77,4 +77,13 @@ app/src/main/java/com/example/androidbatchconverter/
 
 ## License
 
-See [LICENSE](LICENSE).
+The application source code is released under the **MIT License** — see [LICENSE](LICENSE).
+
+Third-party components have their own licenses. Notably, the bundled **FFmpeg Kit / FFmpeg** libraries are **LGPL-3.0**. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+If you fork this project, please keep `LICENSE` and `THIRD_PARTY_NOTICES.md`.
+
+### 许可证说明（中文）
+
+- 应用源码采用 **MIT 许可证**（见 [LICENSE](LICENSE)），允许自由使用、修改、分发（需保留版权声明）。
+- 内置的 **FFmpeg Kit / FFmpeg** 为 **LGPL-3.0**，属于动态链接的第三方库，源码见 [FFmpegKit](https://github.com/ffmpegkit-maintained/ffmpeg)。分发时请保留 `LICENSE` 与 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
