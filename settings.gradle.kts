@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Audio-Batch-Converter"
+rootProject.name = "AndroidBatchConverter"
 include(":app")
  

@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">批量音频转换</string>
+
+    <!-- 顶栏 -->
+    <string name="title_main">批量音频转换</string>
+    <string name="title_create_project">创建项目</string>
+    <string name="title_project_detail">项目</string>
+    <string name="title_settings">设置</string>
+    <string name="title_converter_defaults">转换器默认配置</string>
+    <string name="back">返回</string>
+
+    <!-- 项目列表 -->
+    <string name="create_project">创建项目</string>
+    <string name="empty_projects_hint">还没有项目，点击右下角 + 按钮创建</string>
+    <string name="project_input_folder">输入：%1$s</string>
+    <string name="project_output_folder">输出：%1$s</string>
+    <string name="project_not_found">项目不存在</string>
+    <string name="add_project">新建项目</string>
+
+    <!-- 搜索菜单 -->
+    <string name="menu_more">更多选项</string>
+    <string name="search_by_name">按名称搜索</string>
+    <string name="search_by_path">按路径搜索</string>
+    <string name="search_by_regex">正则表达式搜索</string>
+    <string name="settings">设置</string>
+    <string name="search_hint_name">按名称搜索…</string>
+    <string name="search_hint_path">按路径搜索…</string>
+    <string name="search_hint_regex">按正则表达式搜索…</string>
+    <string name="clear_search">清除搜索</string>
+    <string name="regex_invalid">正则表达式无效</string>
+    <string name="no_search_results">没有匹配的项目</string>
+
+    <!-- 创建项目 -->
+    <string name="create_form_title">填写项目信息</string>
+    <string name="project_title_label">项目标题</string>
+    <string name="input_folder_label">输入文件夹</string>
+    <string name="output_folder_label">输出文件夹</string>
+    <string name="browse">浏览</string>
+    <string name="create">创建</string>
+    <string name="title_duplicate">项目名称已存在，请换一个名称</string>
+
+    <!-- 项目详情 -->
+    <string name="audio_files">音频文件</string>
+    <string name="no_files_selected">未选择文件：转换时将使用输入文件夹内的全部音频文件。</string>
+    <string name="selected_files_count">已选择 %1$d 个文件：</string>
+    <string name="select_audio_files">选择音频文件</string>
+    <string name="use_all_files">使用全部文件</string>
+    <string name="save_selection">保存选择</string>
+    <string name="select_from_folder">从输入文件夹选择文件</string>
+    <string name="no_media_found">输入文件夹内没有找到媒体文件</string>
+    <string name="done">完成</string>
+    <string name="start_convert">开始转换</string>
+    <string name="delete_project">删除项目</string>
+    <string name="delete_confirm_title">删除项目？</string>
+    <string name="delete_confirm_message">将永久删除该项目及其设置，确定继续吗？</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="conversion_done">转换完成：%1$d 个文件</string>
+    <string name="conversion_failed">转换失败：%1$s</string>
+    <string name="output_format">输出格式</string>
+    <string name="detailed_params">详细参数</string>
+    <string name="save_params">保存参数</string>
+    <string name="params_saved">参数已保存</string>
+
+    <!-- 转换参数 -->
+    <string name="opt_encoder">编码器</string>
+    <string name="opt_rate_control">码率控制模式</string>
+    <string name="opt_bitrate">比特率</string>
+    <string name="opt_quality">编码质量</string>
+    <string name="opt_sample_rate">采样率</string>
+    <string name="opt_channels">声道数</string>
+    <string name="opt_preset">编码器预设</string>
+    <string name="opt_compression_level">压缩等级</string>
+    <string name="opt_profile">编码配置文件</string>
+    <string name="opt_sample_format">音频采样格式</string>
+    <string name="opt_channel_layout">声道布局</string>
+    <string name="opt_encoder_desc">音频编码器名称，留空自动选择（如 MP3 用 libmp3lame，AAC/M4A 用 aac）。</string>
+    <string name="opt_rate_control_desc">码率分配方式：CBR 恒定、VBR 按质量可变、ABR 平均，或自动。</string>
+    <string name="opt_bitrate_desc">比特率，如 192k、128k；越高音质越好、文件越大。</string>
+    <string name="opt_quality_desc">VBR 模式的质量，数值越小质量越高（如 MP3 用 2、Vorbis 用 4）。</string>
+    <string name="opt_sample_rate_desc">采样率，单位 Hz，如 48000、44100。</string>
+    <string name="opt_channels_desc">声道数，如 2 表示立体声、1 表示单声道。</string>
+    <string name="opt_preset_desc">编码器预设，如 AAC 的 medium/fast。</string>
+    <string name="opt_compression_level_desc">压缩等级，用于 FLAC/Opus；越大文件越小但越慢。</string>
+    <string name="opt_profile_desc">编码配置文件，如 aac_low、aac_main（AAC-LC）。</string>
+    <string name="opt_sample_format_desc">音频采样格式，如 s16、flt、s32；留空自动。</string>
+    <string name="opt_channel_layout_desc">声道布局，如 stereo、mono、5.1；留空自动。</string>
+    <string name="rate_auto">自动</string>
+    <string name="rate_cbr">恒定码率（CBR）</string>
+    <string name="rate_vbr">可变码率（VBR）</string>
+    <string name="rate_abr">平均码率（ABR）</string>
+
+    <!-- 设置 -->
+    <string name="settings_default_folders">默认文件夹</string>
+    <string name="settings_default_input">默认输入文件夹</string>
+    <string name="settings_default_output">默认输出文件夹</string>
+    <string name="settings_theme">主题</string>
+    <string name="theme_light">亮色</string>
+    <string name="theme_dark">暗色</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="settings_language">语言</string>
+    <string name="language_system">跟随系统</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_english">English</string>
+    <string name="save">保存</string>
+    <string name="settings_saved">设置已保存</string>
+    <string name="converter_defaults">转换器详细参数默认配置</string>
+    <string name="converter_defaults_hint">点击配置默认转换参数</string>
+    <string name="remember_last_path">选择路径后，记住上一个路径</string>
+    <string name="storage_permission_title">需要存储权限</string>
+    <string name="storage_permission_message">应用需要“所有文件访问”权限，才能读取输入文件夹并写入输出文件夹。</string>
+    <string name="grant">去授权</string>
+    <string name="later">稍后</string>
+</resources>

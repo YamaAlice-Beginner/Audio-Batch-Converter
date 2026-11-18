@@ -1,3 +1,114 @@
 <resources>
-    <string name="app_name">Audio-Batch-Converter</string>
+    <string name="app_name">Audio Batch Converter</string>
+
+    <!-- Top bar -->
+    <string name="title_main">Audio Batch Converter</string>
+    <string name="title_create_project">Create Project</string>
+    <string name="title_project_detail">Project</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_converter_defaults">Converter Defaults</string>
+    <string name="back">Back</string>
+
+    <!-- Project list -->
+    <string name="create_project">Create Project</string>
+    <string name="empty_projects_hint">No projects yet. Tap the + button to create one.</string>
+    <string name="project_input_folder">Input: %1$s</string>
+    <string name="project_output_folder">Output: %1$s</string>
+    <string name="project_not_found">Project not found</string>
+    <string name="add_project">Add project</string>
+
+    <!-- Search menu -->
+    <string name="menu_more">More options</string>
+    <string name="search_by_name">Search by name</string>
+    <string name="search_by_path">Search by path</string>
+    <string name="search_by_regex">Search by regex</string>
+    <string name="settings">Settings</string>
+    <string name="search_hint_name">Search by name…</string>
+    <string name="search_hint_path">Search by path…</string>
+    <string name="search_hint_regex">Search by regular expression…</string>
+    <string name="clear_search">Clear search</string>
+    <string name="regex_invalid">Invalid regular expression</string>
+    <string name="no_search_results">No matching projects</string>
+
+    <!-- Create project -->
+    <string name="create_form_title">Project information</string>
+    <string name="project_title_label">Project title</string>
+    <string name="input_folder_label">Input folder</string>
+    <string name="output_folder_label">Output folder</string>
+    <string name="browse">Browse</string>
+    <string name="create">Create</string>
+    <string name="title_duplicate">A project with this name already exists.</string>
+
+    <!-- Project detail -->
+    <string name="audio_files">Audio files</string>
+    <string name="no_files_selected">No files selected. All audio files in the input folder will be used.</string>
+    <string name="selected_files_count">%1$d file(s) selected:</string>
+    <string name="select_audio_files">Select audio files</string>
+    <string name="use_all_files">Use all files</string>
+    <string name="save_selection">Save selection</string>
+    <string name="select_from_folder">Select from input folder</string>
+    <string name="no_media_found">No media files found in the input folder</string>
+    <string name="done">Done</string>
+    <string name="start_convert">Start conversion</string>
+    <string name="delete_project">Delete project</string>
+    <string name="delete_confirm_title">Delete project?</string>
+    <string name="delete_confirm_message">This will permanently delete the project and its settings.</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="conversion_done">Conversion done: %1$d file(s)</string>
+    <string name="conversion_failed">Conversion failed: %1$s</string>
+    <string name="output_format">Output format</string>
+    <string name="detailed_params">Detailed parameters</string>
+    <string name="save_params">Save parameters</string>
+    <string name="params_saved">Parameters saved</string>
+
+    <!-- Conversion options -->
+    <string name="opt_encoder">Encoder</string>
+    <string name="opt_rate_control">Rate control</string>
+    <string name="opt_bitrate">Bitrate</string>
+    <string name="opt_quality">Quality</string>
+    <string name="opt_sample_rate">Sample rate</string>
+    <string name="opt_channels">Channels</string>
+    <string name="opt_preset">Preset</string>
+    <string name="opt_compression_level">Compression level</string>
+    <string name="opt_profile">Profile</string>
+    <string name="opt_sample_format">Sample format</string>
+    <string name="opt_channel_layout">Channel layout</string>
+    <string name="opt_encoder_desc">Audio encoder name; leave empty to auto-select (e.g. libmp3lame for MP3, aac for AAC/M4A).</string>
+    <string name="opt_rate_control_desc">Bitrate allocation: CBR constant, VBR by quality, ABR average, or auto.</string>
+    <string name="opt_bitrate_desc">Bitrate, e.g. 192k or 128k. Higher = better quality, larger file.</string>
+    <string name="opt_quality_desc">VBR quality. Smaller = better (e.g. 2 for MP3, 4 for Vorbis).</string>
+    <string name="opt_sample_rate_desc">Sample rate in Hz, e.g. 48000 or 44100.</string>
+    <string name="opt_channels_desc">Channel count, e.g. 2 for stereo, 1 for mono.</string>
+    <string name="opt_preset_desc">Encoder preset, e.g. medium/fast for AAC.</string>
+    <string name="opt_compression_level_desc">Compression level for FLAC/Opus; higher = smaller but slower.</string>
+    <string name="opt_profile_desc">Encoder profile, e.g. aac_low or aac_main (AAC-LC).</string>
+    <string name="opt_sample_format_desc">Sample format, e.g. s16, flt, s32; empty = auto.</string>
+    <string name="opt_channel_layout_desc">Channel layout, e.g. stereo, mono, 5.1; empty = auto.</string>
+    <string name="rate_auto">Auto</string>
+    <string name="rate_cbr">Constant bitrate (CBR)</string>
+    <string name="rate_vbr">Variable bitrate (VBR)</string>
+    <string name="rate_abr">Average bitrate (ABR)</string>
+
+    <!-- Settings -->
+    <string name="settings_default_folders">Default folders</string>
+    <string name="settings_default_input">Default input folder</string>
+    <string name="settings_default_output">Default output folder</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">Follow system</string>
+    <string name="settings_language">Language</string>
+    <string name="language_system">Follow system</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_english">English</string>
+    <string name="save">Save</string>
+    <string name="settings_saved">Settings saved</string>
+    <string name="converter_defaults">Converter parameter defaults</string>
+    <string name="converter_defaults_hint">Tap to configure default conversion parameters</string>
+    <string name="remember_last_path">Remember the last selected path</string>
+    <string name="storage_permission_title">Storage permission required</string>
+    <string name="storage_permission_message">This app needs "All files access" permission to read the input folder and write the output folder.</string>
+    <string name="grant">Grant</string>
+    <string name="later">Later</string>
 </resources>
