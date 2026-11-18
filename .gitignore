@@ -17,3 +17,16 @@ local.properties
 /app/release
 *.jks
 *.keystore
+.idea/
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*.jks
+*.keystore
+*.apk
+*.aab
+local.properties
